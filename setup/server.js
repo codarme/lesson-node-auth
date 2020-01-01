@@ -6,6 +6,6 @@ server.use(restify.plugins.queryParser({ mapParams: false, allowDots: true }))
 server.use(restify.plugins.bodyParser({ mapParams: false }))
 
 server.start = () => {
-  server.listen(3001, () => console.log('Started'))
+  server.listen(process.env.SERVER_PORT, () => console.log('Started'))
   return server
 }

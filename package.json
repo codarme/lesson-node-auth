@@ -7,7 +7,7 @@
     "start": "nodemon -- -r esm -r dotenv/config index.js"
   },
   "dependencies": {
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.8.3",
     "restify": "^8.5.1"
   },
